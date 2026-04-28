@@ -1,0 +1,45 @@
+site_name: Scratch Catching Game Course
+site_description: A self-guided MkDocs course for building a Catching Game in Scratch.
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+nav:
+  - Course Home: index.md
+  - Session 1 - Build the Basics:
+    - Module 1 - Explore: session-1/module-1.md
+    - Module 2 - Move: session-1/module-2.md
+    - Module 3 - Theme: session-1/module-3.md
+    - Module 4 - Falling Objects: session-1/module-4.md
+    - Module 5 - Catching: session-1/module-5.md
+    - Module 6 - Score: session-1/module-6.md
+    - Module 7 - Win Condition: session-1/module-7.md
+  - Session 2 - Complete the Game:
+    - Module 8 - Enemies: session-2/module-8.md
+    - Module 9 - Increase Challenge: session-2/module-9.md
+    - Module 10 - Add Sounds: session-2/module-10.md
+    - Module 11 - Improve Design: session-2/module-11.md
+    - Module 12 - Playtesting: session-2/module-12.md
+    - Module 13 - Showcase: session-2/module-13.md
+  - Congratulations: conclusion.md
